@@ -7,15 +7,15 @@ import './styles/index.css'; // Main CSS
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap styles
 import App from './App.jsx'
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>,
-// )
-
-ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+  </StrictMode>,
+)
+
+// ReactDOM.render(
+//   <BrowserRouter basename={process.env.PUBLIC_URL}>
+//     <App />
+//   </BrowserRouter>,
+//   document.getElementById('root')
+// );
