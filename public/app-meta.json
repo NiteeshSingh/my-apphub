@@ -1,0 +1,65 @@
+{
+    "apps": [
+        {
+            "id": "1",
+            "name": "Counter",
+            "description": "A simple Counter App",
+            "author": "Niteesh Singh",
+            "version": "1.0.0",
+            "releaseDate": "2024-12-10",
+            "icon": "/assets/icons/counter-icon.png",
+            "features": [
+                "increase count"
+            ],
+            "cardImage": "/assets/cards/counter-card.jpg",
+            "cardData": {
+                "summary": "A simple counter app to increase, decrese and reset a counter.",
+                "details": "Increase, decrease, and reset the counter value using buttons provided."
+            },
+            "link": "/counter",
+            "display": true
+        },
+        {
+            "id": "2",
+            "name": "Weather Tracker",
+            "description": "A simple app to track the weather of any city in real-time.",
+            "author": "John Doe",
+            "version": "1.0.0",
+            "releaseDate": "2024-12-10",
+            "icon": "/assets/icons/weather-icon.png",
+            "features": [
+                "Search weather by city",
+                "View temperature, humidity, and wind speed",
+                "Save favorite cities"
+            ],
+            "cardImage": "/assets/cards/weather-card.jpg",
+            "cardData": {
+                "summary": "Track real-time weather data across cities!",
+                "details": "Check temperature, humidity, and more."
+            },
+            "link": "/weather-tracker",
+            "display": true
+        },
+        {
+            "id": "3",
+            "name": "Task Manager",
+            "description": "Organize and manage your tasks efficiently.",
+            "author": "Jane Smith",
+            "version": "1.2.0",
+            "releaseDate": "2024-10-01",
+            "icon": "/assets/icons/task-icon.png",
+            "features": [
+                "Create, edit, and delete tasks",
+                "Set reminders",
+                "Track task completion progress"
+            ],
+            "cardImage": "/assets/cards/task-manager-card.jpg",
+            "cardData": {
+                "summary": "Stay productive with this Task Manager.",
+                "details": "Set reminders and track progress."
+            },
+            "link": "/task-manager",
+            "display": true
+        }
+    ]
+}

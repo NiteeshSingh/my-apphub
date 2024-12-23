@@ -1,0 +1,20 @@
+/* index.css */
+
+/* Ensure that the body and html elements take the full viewport height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  /* Remove default margin */
+  font-family: Arial, sans-serif;
+  /* Set a default font */
+}
+
+/* Root element should stretch to full height */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Ensure the root element takes the full height of the viewport */
+}
+

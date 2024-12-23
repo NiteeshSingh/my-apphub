@@ -1,0 +1,80 @@
+/* reset.css */
+
+/* Box model reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset the default form styles */
+input,
+textarea,
+select,
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Make sure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Normalize font sizes and line heights */
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Avoid any browser-specific styles on form inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select,
+button {
+    font: inherit;
+    line-height: inherit;
+}
+
+/* Provide a consistent appearance for buttons */
+button {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+}
