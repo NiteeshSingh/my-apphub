@@ -6,7 +6,7 @@ const Header = () => {
       <h1 style={styles.title}>My App Hub</h1>
       <nav>
         <ul style={styles.navList}>
-          <li style={styles.navItem}><a href="/">Home</a></li>
+          <li style={styles.navItem}><a href="/my-apphub/">Home</a></li>
           <li style={styles.navItem}><a href="#about">About</a></li>
         </ul>
       </nav>

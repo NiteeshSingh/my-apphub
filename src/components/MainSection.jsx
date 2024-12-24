@@ -6,7 +6,7 @@ const MainSection = () => {
 
   useEffect(() => {
     // Fetch the app metadata from the JSON file
-    fetch('/app-meta.json')
+    fetch('/my-apphub/app-meta.json')
       .then((response) => response.json())
       .then((data) => {
         // Filter apps where display is true
