@@ -10,10 +10,3 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-
-// ReactDOM.render(
-//   <BrowserRouter basename={process.env.PUBLIC_URL}>
-//     <App />
-//   </BrowserRouter>,
-//   document.getElementById('root')
-// );

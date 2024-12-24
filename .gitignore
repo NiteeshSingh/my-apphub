@@ -24,18 +24,6 @@ junk
 *.sln
 *.sw?
 
-# Node modules directory
-/node_modules/
-
-# Vite build output
-/dist/
-
-# Logs
-*.log
-
-# Dependency directories
-*.log.*
-
 # Environment files
 .env
 .env.*.local
