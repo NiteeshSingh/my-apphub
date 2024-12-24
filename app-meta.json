@@ -14,7 +14,7 @@
             "cardImage": "/my-apphub/assets/cards/counter-card.jpg",
             "cardData": {
                 "summary": "A simple counter app to increase, decrese and reset a counter.",
-                "details": "Increase, decrease, and reset the counter value using buttons provided."
+                "details": "Increase, decrease, and Reset the counter value using the buttons provided."
             },
             "link": "/my-apphub/counter",
             "display": true
