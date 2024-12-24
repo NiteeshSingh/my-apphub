@@ -16,8 +16,8 @@ const App = () => {
         {/* Main content of the app */}
         <main className='d-flex flex-grow-1 bg-light'>
           <Routes>
-            <Route path="/" element={<MainSection />} />
-            <Route path="/counter" element={<Counter />} />
+            <Route path="/my-apphub/" element={<MainSection />} />
+            <Route path="/my-apphub/counter" element={<Counter />} />
             {/* <Route path="/weather-tracker" element={<WeatherTracker />} />
             <Route path="/task-manager" element={<TaskManager />} /> */}
           </Routes>
