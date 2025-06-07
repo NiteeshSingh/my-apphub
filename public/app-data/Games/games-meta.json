@@ -1,0 +1,24 @@
+
+{
+    "games": [
+        {
+            "id": "1",
+            "name": "Tango",
+            "description": "A simple game to play.",
+            "author": "Niteesh Singh",
+            "version": "1.0.0",
+            "releaseDate": "2025-06-07",
+            "icon": "/my-apphub/assets/icons/games/tango-icon.jpg",
+            "features": [
+                "A simple game to play."
+            ],
+            "cardImage": "/my-apphub/assets/cards/games/tango-card.png",
+            "cardData": {
+                "summary": "A simple game to play.",
+                "details": "A simple game to play."
+            },
+            "link": "/my-apphub/games/tango",
+            "display": true
+        }
+    ]
+}

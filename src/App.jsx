@@ -5,6 +5,9 @@ import Footer from './components/Footer';
 import MainSection from './components/MainSection';
 
 import Counter from './apps/Counter/Counter';
+import MyCodeforces from './apps/MyCodeforces/MyCodeforces';
+import GamesWindow from './apps/Games/GamesWindow';
+import TangoGame from './apps/Games/Tango/TangoGame';
 
 const App = () => {
   return (
@@ -18,8 +21,9 @@ const App = () => {
           <Routes>
             <Route path="/my-apphub/" element={<MainSection />} />
             <Route path="/my-apphub/counter" element={<Counter />} />
-            {/* <Route path="/weather-tracker" element={<WeatherTracker />} />
-            <Route path="/task-manager" element={<TaskManager />} /> */}
+            <Route path="/my-apphub/my-codeforces" element={<MyCodeforces />} />
+            <Route path="/my-apphub/games" element={<GamesWindow />} />
+            <Route path="/my-apphub/games/tango" element={<TangoGame />} />
           </Routes>
         </main>
         
