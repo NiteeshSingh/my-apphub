@@ -21,44 +21,40 @@
         },
         {
             "id": "2",
-            "name": "Weather Tracker",
-            "description": "A simple app to track the weather of any city in real-time.",
-            "author": "John Doe",
+            "name": "My Codeforces",
+            "description": "An app that will display a random codeforces problem, daily.",
+            "author": "Niteesh Singh",
             "version": "1.0.0",
             "releaseDate": "2024-12-10",
-            "icon": "/my-apphub/assets/icons/weather-icon.png",
+            "icon": "/my-apphub/public/assets/cards/codeforces-card.png",
             "features": [
-                "Search weather by city",
-                "View temperature, humidity, and wind speed",
-                "Save favorite cities"
+                "Display a random codeforces problem"
             ],
-            "cardImage": "/my-apphub/assets/cards/weather-card.jpg",
+            "cardImage": "/my-apphub/assets/cards/codeforces-card.png",
             "cardData": {
-                "summary": "Track real-time weather data across cities!",
-                "details": "Check temperature, humidity, and more."
+                "summary": "A simple app to display a random codeforces problem daily.",
+                "details": "Click on the button to get a random codeforces problem."
             },
-            "link": "/my-apphub/weather-tracker",
+            "link": "/my-apphub/my-codeforces",
             "display": true
         },
         {
             "id": "3",
-            "name": "Task Manager",
-            "description": "Organize and manage your tasks efficiently.",
-            "author": "Jane Smith",
-            "version": "1.2.0",
-            "releaseDate": "2024-10-01",
-            "icon": "/my-apphub/assets/icons/task-icon.png",
+            "name": "Games",
+            "description": "A collection of games to play.",
+            "author": "Niteesh Singh",
+            "version": "1.0.0",
+            "releaseDate": "2025-06-07",
+            "icon": "/my-apphub/assets/icons/games-icon.png",
             "features": [
-                "Create, edit, and delete tasks",
-                "Set reminders",
-                "Track task completion progress"
+                "A collection of games to play."
             ],
-            "cardImage": "/my-apphub/assets/cards/task-manager-card.jpg",
+            "cardImage": "/my-apphub/assets/cards/games-card.jpg",
             "cardData": {
-                "summary": "Stay productive with this Task Manager.",
-                "details": "Set reminders and track progress."
+                "summary": "A collection of games to play.",
+                "details": "A collection of games to play."
             },
-            "link": "/my-apphub/task-manager",
+            "link": "/my-apphub/games",
             "display": true
         }
     ]
